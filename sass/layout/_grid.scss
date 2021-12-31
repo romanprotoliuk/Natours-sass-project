@@ -2,7 +2,6 @@
 
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -15,7 +14,6 @@
   // $ this means select any classes that ends with this: asdas
   // ^ this means select any classes that start with: asdas
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
